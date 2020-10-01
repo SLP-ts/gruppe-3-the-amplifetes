@@ -1,0 +1,19 @@
+/* Variables */
+
+/* Base styles */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+/* Fonts */
+
+/* Tablet styles */
+
+/* Desktop styles */
