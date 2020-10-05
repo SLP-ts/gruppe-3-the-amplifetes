@@ -9,25 +9,26 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
-
-*{
-    box-sizing: border-box;
+.backgroundfoto {
+  position: relative;
+  min-width: 100%;
+  z-index: -1;
 }
 
 /* Animate  */
 
-    .rotate {
-        animation: rotation 3s infinite linear;
+.rotate {
+  animation: rotation 3s infinite linear;
       }
     
-      @keyframes rotation {
-        from {
-          transform: rotate(0deg);
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
         }
-        to {
-          transform: rotate(359deg);
+      to {
+      transform: rotate(359deg);
         }
       }
     
