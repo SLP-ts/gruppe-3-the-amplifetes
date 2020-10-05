@@ -1,11 +1,44 @@
 /* Variables */
 
 /* Base styles */
-@media screen and (min-width: 350px);
+<<<<<<< HEAD
+* {
+    box-sizing: border-box;
+}
+.bandlogo {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+=======
 
 *{
     box-sizing: border-box;
 }
+
+/* Animate  */
+
+    .rotate {
+        animation: rotation 3s infinite linear;
+      }
+    
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    
+    img {
+        width: 30%; height: 30%;
+        position: relative;
+    }
+    
+>>>>>>> e7fd15f89d5174fa18965b7cf268dba18f44aed7
 body{
     background-image: url(background.png);
     background-size: cover;
@@ -21,13 +54,15 @@ img {
 
 
 /* Tablet styles */
-@media screen and (min-width: 760px);
+@media screen and (min-width: 760px)
 {
 
 }
 
 /* Desktop styles */
-@media screen and (1280px);
+@media screen and (min-width: 1280px)
 
+{
 
+}
 
