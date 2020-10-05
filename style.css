@@ -4,18 +4,55 @@
 * {
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(/img/background.png);
+    background-size: cover;
+    max-width: 100%;
+}
+.rotate{
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50%;
+    left: 25%;
+    top: 20%;
+    z-index: -1;
+    
+}
 .bandlogo {
 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%
 }
-.backgroundfoto {
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.picture{
+  width: 100%;
+}
+.album{
   position: relative;
-  min-width: 100%;
-  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 0;
+    bottom: 0;
+    justify-items: center;
+}
+.copyright{
+  grid-column: 2/4;
+}
+
 
 /* Animate  */
 
@@ -32,23 +69,11 @@
         }
       }
     
-    img {
-        width: 30%; height: 30%;
-        position: relative;
-    }
+
     
 
-body{
-    background-image: url(background.png);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-img {
-    max-width: 100%;
-}
+
+
 /* Fonts */
 
 
