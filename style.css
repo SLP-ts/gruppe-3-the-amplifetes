@@ -5,21 +5,26 @@
     
     box-sizing: border-box;
   }
-
-
-h2 {
-  position: relative;
+h2{
+  color: white;
+  font-family: 'Raleway', sans-serif ;
+  background-color: rgba(0, 0, 0, 0.666);
   text-align: center;
+  margin-bottom: 0;
+}
+body{
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
   font-family: 'Raleway', sans-serif;
 }
-.gif {
-  position: relative;
-  padding-right: 20%;
-  padding-left: 20%;
-  
-  
+.background{
+  position: absolute;
+  z-index: -3;
+  background-size: cover;
+  max-width: 100%;
 }
-
 .bandlogo {
 
   display: block;
@@ -27,32 +32,53 @@ h2 {
   margin-right: auto;
   width: 90%;
 }
-.gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.rotate{
+  width: 50%;
+  display: block;
+  margin: auto;
+  position: sticky;
+  top: 20vh;
+  z-index: -2;
 }
-.picture{
+.gif{
   width: 100%;
+  margin-bottom: 100vw;
+}
+.release{
+  margin: 20%;
+  position: relative;
+  margin-bottom: 0;
 }
 .album{
-  position: relative;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  display: block;
+  position: relative;
+}
+.triangle{
+  z-index: -1;
+  position: absolute  ;
+  height: auto;
+  width: 100%;
+  top: -10vw;
 }
 footer{
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-    padding: 0;
+    position: fixed;
     bottom: 0;
-    justify-items: center;
+    left: 10%;
+    right: 10%;
+}
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  justify-items: center;
 }
 .copyright{
   grid-column: 2/4;
 }
+a, a:hover, a:active, a:visited { color: white; }
 
 
 /* Animate  */
@@ -70,18 +96,6 @@ footer{
         }
       }
     
-
-    
-
-body{
-    background-image: url(background.png);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-}
 img {
     max-width: 100%;
 }
@@ -98,9 +112,7 @@ img {
 }
 
 /* Desktop styles */
-@media screen and (min-width: 1280px)
-
-{
+@media screen and (min-width: 1280px){
 
 }
 
