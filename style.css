@@ -6,6 +6,19 @@
     box-sizing: border-box;
   }
 
+body{
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.background{
+  position: absolute;
+  z-index: -3;
+  background-size: cover;
+  max-width: 100%;
+}
 .bandlogo {
 
   display: block;
@@ -13,18 +26,35 @@
   margin-right: auto;
   width: 90%;
 }
-.gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.rotate{
+  width: 50%;
+  display: block;
+  margin: auto;
+  position: sticky;
+  top: 5vw;
+  z-index: -2;
 }
+
 .picture{
   width: 100%;
 }
-.album{
+.release{
+  margin: 10%;
   position: relative;
+}
+.album{
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  display: block;
+  position: relative;
+}
+.triangle{
+  z-index: -1;
+  position: absolute  ;
+  height: auto;
+  width: 100%;
+  top: -13vw;
 }
 footer{
     margin-left: auto;
@@ -32,6 +62,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
+    position: relative;
     padding: 0;
     bottom: 0;
     justify-items: center;
@@ -56,18 +87,6 @@ footer{
         }
       }
     
-
-    
-
-body{
-    background-image: url(background.png);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-}
 img {
     max-width: 100%;
 }
