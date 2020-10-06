@@ -31,7 +31,7 @@ body{
   display: block;
   margin: auto;
   position: sticky;
-  top: 5vw;
+  top: 20vh;
   z-index: -2;
 }
 
@@ -62,7 +62,6 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
-    position: relative;
     padding: 0;
     bottom: 0;
     justify-items: center;
