@@ -42,6 +42,22 @@ h2 {
 header{
   padding-top: 10px;
 }
+.container{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 75px;
+}
+.astronaut1{
+  position: absolute;
+  width: 20%;
+  right: -10%;
+  top: 10%;
+}
+.astronaut2{
+  width: 20%;
+  position: absolute;
+}
 .bandlogo {
   display: block;
   margin-left: auto;
@@ -53,6 +69,7 @@ header{
   display: block;
   margin: auto;
   position: sticky;
+  left: 50%;
   top: 20vh;
   z-index: -2;
 }
@@ -99,6 +116,7 @@ footer{
     bottom: 0;
     left: 10%;
     right: 10%;
+    z-index: 100;
 }
 nav{
   display: grid;
@@ -120,10 +138,10 @@ a, a:hover, a:active, a:visited { color: white; }
     
   @keyframes rotation {
     from {
-      transform: rotate(0deg);
+      transform: translateX(-50%) rotate(0deg);
         }
       to {
-      transform: rotate(359deg);
+      transform: translateX(-50%) rotate(359deg);
         }
       }
     

@@ -14,19 +14,22 @@
 </head>
 
 <body>
-  <img src="img/background.png" alt="Space to earth background" class="background">
+  <img src="img/background.png" srcset="img/background.png 200px, " alt="Space to earth background" class="background">
   <header>
     <img class="bandlogo" src="Logo/logo.svg" alt="band name">
 
   </header>
   <img class="rotate" src="img/Spinninglp1.png" alt="Spinning black LP ">
+  <article class="container" >
+    <img class="astronaut1" src="img/astronaut1.png" alt="astronaut">
+  </article>
   <section class="about">
     <h2 class="about__title">About</h2>
     <p class="about__text">The Amplifetes influences range along a broad spectrum, including 60s psychedelia, the Electric Light Orchestra, The Ramones, Elvis Costello, David Bowie, and Chicago Trax Records. The individual <span id="dots">...</span><span id="more">members have had success as songwriters and producers, working with artists such as Kelis, Britney Spears, Madonna, Kylie Minogue, and Grandmaster Flash. 
       The band has been active since 2008. In 2010, they released their eponymous debut album. Four singles were taken from this album: It's My Life, Whizz Kid, Somebody New, and Blinded By The Moonlight. Following this, the band toured extensively over Europe for two years.
       The Amplifetes music have been used in various soundtrack areas. The appearance of It´s My Life in an advertisement for the Roberto Cavalli credit card starring Milla Jovovich and "Somebody New" in a Garnier Fructis promotion and the TV-series 90210 are some examples.</span></p>
       <button onclick="myFunction()" id="myBtn">Read more</button>
-      
+
     <img src="img/the-amplifetes-about.png" alt="silhouette">
   </section>
 
@@ -43,7 +46,9 @@
       <img class="triangle" src="triangle.svg" alt="">
       <img class="album" src="img/album.png" alt="">
     </section>
-
+    <article class="container" >
+      <img class="astronaut2" src="img/astronaut4.png" alt="astronaut">
+    </article>
     <footer>
       <nav>
         <a href="https://www.instagram.com/explore/tags/amplifetes/top/?hl=da"><i
@@ -55,19 +60,19 @@
         <p class="copyright">Copyright 2020 <i class="far fa-copyright"></i></p>
       </nav>
     </footer>
+    <script>function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }</script>
 </body>
-<script>function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}</script>
 </html>
