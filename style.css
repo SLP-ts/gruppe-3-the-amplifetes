@@ -39,8 +39,10 @@ h2 {
   background-size: cover;
   max-width: 100%;
 }
+header{
+  padding-top: 10px;
+}
 .bandlogo {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -53,6 +55,22 @@ h2 {
   position: sticky;
   top: 20vh;
   z-index: -2;
+}
+#more {
+  display: none;
+}
+#myBtn{
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .gif{
   width: 100%;
@@ -89,7 +107,7 @@ nav{
   justify-items: center;
 }
 .copyright{
-  grid-column: 2/4;
+  grid-column: 1/5;
 }
 a, a:hover, a:active, a:visited { color: white; }
 
