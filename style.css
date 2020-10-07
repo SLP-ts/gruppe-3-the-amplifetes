@@ -26,6 +26,11 @@ body{
   height: auto;
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 .background{
@@ -51,10 +56,9 @@ body{
 }
 .gif{
   width: 100%;
-  margin-bottom: 100vw;
 }
 .release{
-  margin: 20%;
+  margin: 10%;
   position: relative;
   margin-bottom: 0;
 }
@@ -108,8 +112,6 @@ a, a:hover, a:active, a:visited { color: white; }
 img {
     max-width: 100%;
 }
-
-
 
 /* Fonts */
 
