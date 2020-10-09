@@ -1,110 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Amplifetes</title>
-    <link rel="icon" 
-      type="image/png" 
-      href="tabbar.png" />
-          <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Amplifetes</title>
+  <link rel="icon" type="image/png" href="img/tabbar.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <img class="background" src="img/background.png"  alt="Space to earth background" >
   <header>
-<<<<<<< Updated upstream
-    <nav class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </nav>
-    <img class="bandlogo" src="img/the-amplifetes-logo.png" alt="band name">
-<<<<<<< Updated upstream
-=======
-    <img class= "bandname" src="img/the-amplifetes-logo.png" alt="band name">
-  </header>
-    <img class="rotate" src="img/Spinninglp1.png" alt="Spinning black LP ">
-  <main>
->>>>>>> Stashed changes
-    
-  </header>
-    <img class="rotate" src="img/Spinninglp1.png" alt="Spinning black LP ">
-
-    <section class="gallery">
-    <img class="picture" src="img/the_amplifetes_slide1.jpeg" alt="picture">
-    <img class="picture" src="img/the_amplifetes_slide2.jpeg" alt="picture">
-    <img class="picture" src="img/the_amplifetes_slide3.jpeg" alt="picture">
-    <img class="picture" src="img/the_amplifetes_slide4.jpeg" alt="picture">
-    <img class="picture" src="img/the_amplifetes_warhole.png" alt="picture">
-  </section>
-=======
-  </header>
-    <img class="rotate" src="img/Spinninglp1.png" alt="Spinning black LP ">
-
-    <section class="about">
-      <h2 class="about__title">About</h2>
-      <p class="about__text">The Amplifetes influences range along a broad spectrum, including 60s psychedelia, 
-        the Electric Light Orchestra, The Ramones, Elvis Costello, David Bowie, and Chicago Trax Records. 
-        The individual members have had success as songwriters and producers, working with artists such as Kelis, 
-        Britney Spears, Madonna, Kylie Minogue, and Grandmaster Flash.
-
-      The band has been active since 2008. In 2010, they released their eponymous debut album. 
-      Four singles were taken from this album: It's My Life, Whizz Kid, Somebody New, and Blinded By The Moonlight. 
-      Following this, the band toured extensively over Europe for two years.
-        
-      Early summer 2012 saw the first sign of post-debut activity, 
-      as their new song Where Is The Light was launched, together with an accompanying internet video game. 
-      The full follow-up album Where Is The Light was released in early 2013, with cover artwork supplied 
-      by Storm Thorgersen and the additional singlesYou/Me/Evolution and You Want It.</p>
-      <img src="img/the-amolifetes-silhouet-omos.png" alt="silhouette">
+    <section class="header">
+      <a href="" class="logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#about">About</a></li> 
+        <li><a href="#tourdates">Tour dates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </section>
   
- 
->>>>>>> Stashed changes
-  <section class="songs">
-    <audio src="audio-snip/blinded-by-the-moonlight.mp3"></audio>
-    <audio src="audio-snip/it-cant-rain-all-the-time.mp3"></audio>
-    <audio src="audio-snip/its-my-life.mp3"></audio>
-    <audio src="audio-snip/somebody-new.mp3"></audio>
-    <audio src="audio-snip/when-the-music-died.mp3"></audio>
-    <audio src="audio-snip/whizz-kid.mp3"></audio>
-    <audio src="audio-snip/you-me-evolution.mp3"></audio>
-    <audio src="audio-snip/you-want-it.mp3"></audio>
+    <img class="bandlogo" src="Logo/The Amplifetes black logo.png" alt="band name">
+    <img class="rotate" src="img/Spinninglp1.png" alt="Spinning black LP ">
+    <img class="astronaut1" src="img/astronaut1css.png" alt="">
+
+  <section class="about">
+    <h1 class="about__title">About</h1>
+    <p class="about__text">The Amplifetes influences range along a broad spectrum, including 60s psychedelia, the Electric Light Orchestra, The Ramones, Elvis Costello, David Bowie, and Chicago Trax Records. The individual <span id="dots">...</span><span id="more">members have had success as songwriters and producers, working with artists such as Kelis, Britney Spears, Madonna, Kylie Minogue, and Grandmaster Flash. 
+      The band has been active since 2008. In 2010, they released their eponymous debut album. Four singles were taken from this album: It's My Life, Whizz Kid, Somebody New, and Blinded By The Moonlight. Following this, the band toured extensively over Europe for two years.
+      The Amplifetes music have been used in various soundtrack areas. The appearance of It´s My Life in an advertisement for the Roberto Cavalli credit card starring Milla Jovovich and "Somebody New" in a Garnier Fructis promotion and the TV-series 90210 are some examples.</span></p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
+
+    <img class="silhouette" src="img/the-amplifetes-about.png" alt="about">
   </section>
+  
   <h2>Tour Dates</h2>
-    <img class="gif" src="img/tourdates_gif.gif" alt="tourdates_gif">
+    <img class= "gif" src="img/tourdates_gif.gif" alt="tourdates">
+    <img class="astronaut2" src="img/astronaut2css.png" alt="ast2">
 
-<section class="album">
-  <article class="triangle">
-    <img src="triangle.png" alt="">
-    <img class="album" src="img/album.png" alt="">
-  </article>
-</section>  
-
-<footer>
-  <i class="fab fa-instagram fa-2x"></i>
-  <i class="fab fa-youtube fa-2x"></i>
-  <i class="fab fa-facebook-square fa-2x"></i>
-  <i class="fab fa-spotify fa-2x"></i>
-  <p class="copyright">Copyright 2020 <i class="far fa-copyright"></i></p>
-</footer>
+     <section class="release">
+      <img class="triangle" src="img/triangle svg.svg" alt="">
+      <img class="album" src="img/album.png" alt="">
+      </section>
+    
+    <footer>
+      <nav>
+        <a href="https://www.instagram.com/explore/tags/amplifetes/top/?hl=da"><i
+            class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.youtube.com/channel/UCtY-y4wisbR4BdGtLNa-Y3w"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://www.facebook.com/theamplifetes/?rf=110914255602010"><i
+            class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="https://open.spotify.com/artist/6MpVJDvEXZXpyhm5RDEu9W"><i class="fab fa-spotify fa-2x"></i></a>
+        <p class="copyright">Copyright 2020 <i class="far fa-copyright"></i></p>
+      </nav>
+    </footer>
+    <script>function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }</script>
 </body>
-<<<<<<< Updated upstream
 </html>
 
-=======
-<script>
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-</html>
->>>>>>> Stashed changes
+
